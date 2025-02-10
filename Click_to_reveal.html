@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click to Reveal</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; background-color: #ffe6e6; padding: 20px; }
+        #message { display: none; font-size: 22px; color: #d63333; margin-top: 20px; font-weight: bold; }
+        button { padding: 12px 24px; font-size: 20px; font-weight: bold; background-color: #ff4d4d; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #cc0000; }
+    </style>
+</head>
+<body>
+    <h1>Click the button to reveal my promise!</h1>
+    <button onclick="revealMessage()">Click Here</button>
+    <p id="message">
+        No matter how far we are, my love for you remains the same.  
+        I promise to stand by your side in your happiest moments and hold your hand through your saddest days.  
+        Your dreams will be my dreams, and your struggles will never be yours alone.  
+        With each heartbeat, I will love you more, today, tomorrow, and forever. ❤️  
+    </p>
+    <script>
+        function revealMessage() {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
